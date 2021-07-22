@@ -332,7 +332,7 @@ nav ul li a:hover:after {
     width: 50%;
     background: none;
     background: url('../img/sec4.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .contactCards {
