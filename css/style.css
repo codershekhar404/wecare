@@ -147,7 +147,7 @@ nav ul li a:hover:after {
     bottom: 2rem;
     margin-right: 6rem;
     background: url('../img/sec1.svg') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .heroLeft h1 {
