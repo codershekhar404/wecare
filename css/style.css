@@ -295,6 +295,7 @@ nav ul li a:hover:after {
 
 .cards .para h2 {
     font-size: 2rem;
+    font-weight: 400;
 }
 
 .cards:nth-child(3) .para {
