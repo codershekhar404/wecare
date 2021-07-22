@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 :root {
     --linear-gradient: linear-gradient(to right, #4881eb, #0070fa);
     --josefin-font: 'Josefin Sans', sans-serif;
@@ -152,13 +152,14 @@ nav ul li a:hover:after {
 
 .heroLeft h1 {
     font-size: 6.4rem;
+    font-weight: normal;
     margin-bottom: 2rem;
 }
 
 .heroLeft h3 {
     font-size: 3.2rem;
     margin-bottom: 2.2rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* end Hero */
@@ -183,7 +184,7 @@ nav ul li a:hover:after {
 
 .text-container h1 {
     width: fit-content;
-    font-size: 6.8rem;
+    font-size: 6.5rem;
     padding: 0 2rem 3rem 8rem;
     position: relative;
     bottom: 8rem;
@@ -233,7 +234,7 @@ nav ul li a:hover:after {
 .text-container2 h2 {
     font-size: 6rem;
     text-align: center;
-    font-weight: normal;
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 
