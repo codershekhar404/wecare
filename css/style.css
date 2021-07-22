@@ -311,6 +311,7 @@ nav ul li a:hover:after {
 #contact {
     width: var(--width);
     height: 100%;
+    margin-bottom: 5rem;
 }
 
 .text-container3 {
@@ -327,7 +328,7 @@ nav ul li a:hover:after {
 }
 
 .contactImg {
-    height: 60rem;
+    height: 50rem;
     width: 50%;
     background: none;
     background: url('../img/sec4.png') no-repeat center center;
