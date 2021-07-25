@@ -450,12 +450,14 @@
         margin-top: 0;
     }
     .right-side-menu {
-        margin-top: 2rem;
-        width: 100%;
+        width: var(--width);
+
         justify-content: end;
     }
     .right-side-menu .btn {
         margin-top: 6rem;
+        margin-right: 1.8rem;
+        width: 100%;
     }
     .btn {
         padding: 1.2rem 3.1rem .7rem 3.1rem;
@@ -519,6 +521,8 @@
     .text-container h3 {
         text-align: center;
         padding: 0;
+        font-size: 1.6rem;
+        font-weight: normal;
     }
     .text-container .infoBtn {
         margin: 0;
