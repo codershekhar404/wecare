@@ -11,26 +11,35 @@
 </head>
 
 <body>
-    <header id="home">
-        <div class="mainHeader">
-            <div class="logo"><a href="index.html">
-                    <img src="img/logo.png" alt="Logo"></a>
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav>
+            <!-- left side menu -->
+            <div class="left-side-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#importance">Importance</a></li>
+                        <li><a href="#sideEffect">Side Effect</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#importance">Importance</a></li>
-                    <li><a href="#sideEffect">Side Effect</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-
-            <div>
-                <a href="tel:+911123978046" class="btn">helpline</a>
+            <!-- right side menu -->
+            <div class="right-side-menu">
+                <div class="main-menu">
+                    <a href="tel:+911123978046" class="btn">helpline</a>
+                </div>
             </div>
-        </div>
-
+        </nav>
+        <!-- navbar end -->
+        <!-- hero -->
         <div class="flex-container hero">
             <section class="leftSide heroLeft">
                 <h1>Let’s Fight Against Corona Virus</h1>
@@ -41,8 +50,11 @@
             </section>
             <section class="rightSide heroRight"></section>
         </div>
+        <!-- hero end -->
     </header>
+    <!-- header end -->
     <main>
+        <!-- section 2 -->
         <section class="flex-container bg2" id="importance">
             <div class="leftSide img2"></div>
             <div class="rightSide text-container">
@@ -54,7 +66,8 @@
                 <a href="https://www.mohfw.gov.in/" target="_blank" class="btn infoBtn">For More Info Visit Here</a>
             </div>
         </section>
-
+        <!-- section 2 end -->
+        <!-- section 3 -->
         <section id="sideEffect">
             <div class="flex-container sideEffect">
                 <div class="leftSide text-container2">
@@ -107,12 +120,13 @@
                 </div>
             </div>
         </section>
-
+        <!-- section 3 end -->
+        <!-- section 4 -->
         <section id="contact">
-            <div class="flex-container contact">
+            <div class="flex-container">
                 <div class="leftSide text-container3">
                     <h1>Contact Us</h1>
-                    <div class="contactcard">
+                    <div>
                         <div class="contactCards">
                             <a href="tel:1075" title="Toll Free Helpline Number">1075</a>
                         </div>
@@ -127,15 +141,13 @@
                 <div class="rightSide contactImg"></div>
             </div>
         </section>
+        <!-- section 4 end -->
     </main>
-
+    <!-- main end -->
     <footer>
         <img src="img/logo.png" alt="Logo" class="logo">
         <h2>Copyright ©2021 Designed By Shekhar</h2>
     </footer>
-
-
-
 </body>
 
 </html>

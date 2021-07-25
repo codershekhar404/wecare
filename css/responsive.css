@@ -1,0 +1,606 @@
+:root {
+    --linear-gradient: linear-gradient(to right, #4881eb, #0070fa);
+    --josefin-font: 'Josefin Sans', sans-serif;
+    --awesome-boxshadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1), 10px 10px 30px 4px rgba(45, 78, 255, 0.15);
+    --width: 98.75vw;
+}
+
+/* for big devices */
+
+@media (min-width:1367) and (max-width: 1600px) {
+    nav {
+        padding-top: 2rem;
+    }
+    .logo img {
+        width: 25rem;
+    }
+    .main-menu ul li a, ul li a:link, ul li a:visited, ul li a:active {
+        padding: 3rem;
+        font-size: 2.2rem;
+    }
+    .btn {
+        font-size: 1.8rem;
+        padding: 1.6rem 4.1rem 1.4rem 4.1rem;
+    }
+    .heroLeft {
+        padding-left: 8rem;
+    }
+    .heroLeft h1 {
+        font-size: 7rem;
+    }
+    .heroLeft h3 {
+        font-size: 4rem;
+    }
+    .img2 {
+        width: 60rem;
+        height: 70rem;
+    }
+    .text-container h1 {
+        font-size: 7rem;
+        padding: 0 2rem 3rem 18rem;
+    }
+    .text-container h3 {
+        font-size: 3rem;
+        padding: 0 18rem;
+    }
+    .text-container .infoBtn {
+        margin-left: 12.5rem;
+    }
+    .text-container2 {
+        margin-left: 8rem;
+    }
+    .text-container2 h2 {
+        font-size: 7rem;
+    }
+    .text-container2 h4 {
+        font-size: 3.5rem;
+    }
+    .text-container2 h1 {
+        font-size: 8rem;
+    }
+    .text-container3 {
+        margin-left: 10rem;
+    }
+    .text-container3 h1 {
+        font-size: 6rem;
+        margin-left: 4.8rem;
+    }
+    .contactCards {
+        margin: 0 0 7rem 7rem;
+    }
+    .contactCards a {
+        font-size: 3rem;
+    }
+    footer {
+        padding: 6rem;
+    }
+    footer .logo {
+        width: 22rem;
+    }
+    footer h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* For Medium devices */
+
+@media (min-width:690px) and (max-width: 1024px) {
+    body {
+        text-align: center;
+        width: var(--width);
+    }
+    header {
+        background: none;
+    }
+    nav {
+        flex-direction: column-reverse;
+        justify-content: unset;
+        padding: 0 7rem;
+    }
+    .left-side-menu {
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+    }
+    .logo img {
+        width: 15rem;
+        padding-left: 1.2rem;
+    }
+    .main-menu {
+        height: 2rem;
+    }
+    .main-menu ul li a, ul li a:link, ul li a:visited, ul li a:active {
+        font-size: 1.4rem;
+        padding: 1.2rem;
+        margin-top: 0;
+    }
+    .right-side-menu {
+        margin-top: 6rem;
+        width: 100%;
+        justify-content: end;
+    }
+    .right-side-menu .btn {
+        margin-top: 6rem;
+    }
+    .flex-container {
+        width: var(--width);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftSide {
+        width: 100%;
+    }
+    .rightSide {
+        width: 100%;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+    .heroLeft {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .heroLeft h1 {
+        font-size: 6rem;
+        padding: 3rem 4rem;
+        margin: 0;
+    }
+    .heroRight {
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .bg2 {
+        background: none;
+    }
+    .img2 {
+        width: 45rem;
+        height: 55rem;
+        margin: 0;
+        padding: 0;
+    }
+    .text-container h1 {
+        margin: 0;
+        padding: 0 6rem;
+        margin-bottom: 1rem;
+    }
+    .text-container h3 {
+        text-align: center;
+    }
+    .text-container .infoBtn {
+        margin: 0;
+    }
+    #sideEffect {
+        margin-top: 5rem;
+    }
+    .text-container2 {
+        margin: 0;
+        width: var(--width);
+        padding: 0 10rem;
+    }
+    .text-container2 h2 {
+        padding: 0 4rem;
+    }
+    .img3 {
+        height: 50rem;
+    }
+    .card {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 4rem 0;
+    }
+    .card img {
+        width: 23rem;
+    }
+    .cards {
+        height: 25rem;
+        width: 47rem;
+    }
+    .cards .para {
+        margin-top: 13.2rem;
+    }
+    .cards:nth-child(3) .para {
+        margin-top: 5rem;
+    }
+    .contact {
+        display: flex;
+    }
+    .text-container3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-container3 h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 4.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .text-container3 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5rem 0;
+        padding: 0;
+    }
+    .contactImg {
+        display: none;
+    }
+    footer .logo {
+        width: 15rem;
+    }
+    footer h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* for small devices */
+
+@media (min-width:481px) and (max-width: 689px) {
+    body {
+        text-align: center;
+        width: var(--width);
+    }
+    header {
+        background: none;
+    }
+    nav {
+        flex-direction: column-reverse;
+        justify-content: unset;
+        padding: 0 5rem;
+    }
+    .left-side-menu {
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+    }
+    .logo img {
+        width: 15rem;
+        padding-left: 1.2rem;
+    }
+    .main-menu {
+        height: 2rem;
+    }
+    .main-menu ul li a, ul li a:link, ul li a:visited, ul li a:active {
+        font-size: 1.2rem;
+        padding: 1.2rem;
+        margin-top: 0;
+    }
+    .right-side-menu {
+        margin-top: 6rem;
+        width: 100%;
+        justify-content: end;
+    }
+    .right-side-menu .btn {
+        margin-top: 6rem;
+    }
+    .flex-container {
+        width: var(--width);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftSide {
+        width: 100%;
+    }
+    .rightSide {
+        width: 100%;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+    .heroLeft {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .heroLeft h1 {
+        font-size: 4.5rem;
+        padding: 3rem 4rem;
+        margin: 0;
+    }
+    .heroLeft h3 {
+        font-size: 2.5rem;
+    }
+    .heroRight {
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .bg2 {
+        background: none;
+    }
+    .img2 {
+        width: 45rem;
+        height: 55rem;
+        margin: 0;
+        padding: 0;
+    }
+    .text-container h1 {
+        margin: 0;
+        font-size: 4.2rem;
+        padding: 0 6rem;
+        margin-bottom: 2rem;
+    }
+    .text-container h3 {
+        text-align: center;
+    }
+    .text-container .infoBtn {
+        margin: 0;
+    }
+    #sideEffect {
+        margin-top: 5rem;
+    }
+    .text-container2 {
+        margin: 0;
+        width: var(--width);
+        padding: 0 4rem;
+    }
+    .text-container2 h2 {
+        padding: 0 4rem;
+        font-size: 4.2rem;
+    }
+    .text-container2 h4 {
+        font-size: 2.3rem;
+    }
+    .text-container2 h1 {
+        font-size: 5rem;
+    }
+    .img3 {
+        height: 50rem;
+        margin-bottom: 2rem;
+    }
+    .card {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 2rem 0;
+    }
+    .card img {
+        width: 22rem;
+    }
+    .cards {
+        height: 22rem;
+        width: 40rem;
+    }
+    .cards .para {
+        margin-top: 8.2rem;
+        padding: 8rem 2.8rem;
+    }
+    .cards:nth-child(3) .para {
+        margin-top: 1.2rem;
+    }
+    .contact {
+        display: flex;
+    }
+    .text-container3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-container3 h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 4.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .text-container3 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5rem 0;
+        padding: 0;
+    }
+    .contactImg {
+        display: none;
+    }
+    footer .logo {
+        width: 15rem;
+    }
+    footer h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* for extra small devices */
+
+@media (max-width: 480px) {
+    body {
+        text-align: center;
+        width: var(--width);
+    }
+    header {
+        background: none;
+    }
+    nav {
+        flex-direction: column-reverse;
+        justify-content: unset;
+        padding: 0 2rem;
+    }
+    .left-side-menu {
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+    }
+    .logo img {
+        width: 13rem;
+        padding-left: 1.2rem;
+    }
+    .main-menu {
+        height: 4rem;
+    }
+    .main-menu ul li a, ul li a:link, ul li a:visited, ul li a:active {
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        margin-top: 0;
+    }
+    .right-side-menu {
+        margin-top: 2rem;
+        width: 100%;
+        justify-content: end;
+    }
+    .right-side-menu .btn {
+        margin-top: 6rem;
+    }
+    .btn {
+        padding: 1rem 3.1rem .5rem 3.1rem;
+        font-size: 1.3rem;
+    }
+    .flex-container {
+        width: var(--width);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftSide {
+        width: 100%;
+    }
+    .rightSide {
+        width: 100%;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+    .heroLeft {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .heroLeft h1 {
+        font-size: 3.6rem;
+        padding: 3rem 2rem;
+        margin: 0;
+    }
+    .heroLeft h3 {
+        font-size: 2.2rem;
+    }
+    .heroRight {
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .bg2 {
+        background: none;
+    }
+    .img2 {
+        width: 30rem;
+        height: 40rem;
+        margin: 0;
+        padding: 0;
+    }
+    .text-container h1 {
+        margin: 0;
+        font-size: 3.8rem;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    .text-container h3 {
+        text-align: center;
+        padding: 0;
+    }
+    .text-container .infoBtn {
+        margin: 0;
+    }
+    #sideEffect {
+        margin-top: 5rem;
+    }
+    .text-container2 {
+        margin: 0;
+        width: var(--width);
+        padding: 0 2rem;
+    }
+    .text-container2 h2 {
+        font-size: 3.8rem;
+    }
+    .text-container2 h4 {
+        font-size: 2rem;
+    }
+    .text-container2 h1 {
+        font-size: 4rem;
+        margin-top: 0;
+    }
+    .img3 {
+        height: 30rem;
+        margin-bottom: 1rem;
+    }
+    .card {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 2rem 0;
+    }
+    .card img {
+        width: 14rem;
+    }
+    .cards {
+        height: 16rem;
+        width: 28rem;
+    }
+    .cards .para {
+        margin-top: 3.2rem;
+        padding: 8rem 2.8rem;
+    }
+    .cards .para h2 {
+        font-size: 1.4rem;
+    }
+    .cards:nth-child(3) .para {
+        margin-top: -2rem;
+    }
+    .text-container3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-container3 h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3.6rem;
+        margin-bottom: 2.5rem;
+    }
+    .text-container3 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem 0;
+        padding: 0;
+    }
+    .contactCards {
+        width: 30rem;
+        height: 5rem;
+        border-radius: 1.5rem;
+    }
+    .contactCards a {
+        font-size: 1.8rem;
+    }
+    .contactImg {
+        display: none;
+    }
+    footer .logo {
+        width: 12rem;
+    }
+    footer h2 {
+        font-size: 1.2rem;
+    }
+}

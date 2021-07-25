@@ -3,7 +3,7 @@
     --linear-gradient: linear-gradient(to right, #4881eb, #0070fa);
     --josefin-font: 'Josefin Sans', sans-serif;
     --awesome-boxshadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1), 10px 10px 30px 4px rgba(45, 78, 255, 0.15);
-    --width: 98.6vw;
+    --width: 98.75vw;
 }
 
 * {
@@ -31,9 +31,7 @@ a {
     color: #202020;
 }
 
-.logo img {
-    width: 20rem;
-}
+/* header start */
 
 header {
     width: var(--width);
@@ -41,41 +39,55 @@ header {
     background-size: cover;
 }
 
-.mainHeader {
+/* navbar */
+
+nav {
     width: var(--width);
-    height: auto;
+    height: 10rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 1rem;
 }
 
-/* navigation bar */
-
-nav ul {
-    list-style: none;
+.left-side-menu {
+    width: 70%;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul li a, ul li a:link, ul li a:visited, ul li a:active {
+.logo img {
+    width: 20rem;
+}
+
+.main-menu {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.main-menu ul li a, ul li a:link, ul li a:visited, ul li a:active {
     text-decoration: none;
     position: relative;
     color: #333333;
     font-size: 1.8rem;
-    padding: 20px;
+    padding: 2rem;
     text-transform: uppercase;
 }
 
-/* end navigation bar */
-
-/* nav hover effect */
-
-nav ul li a:hover {
+.main-menu ul li a:hover {
     transition: .9s;
 }
 
-nav ul li a:after {
+.main-menu ul li a:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -97,11 +109,16 @@ nav ul li a:after {
     transition: transform 250ms;
 }
 
-nav ul li a:hover:after {
+.main-menu ul li a:hover:after {
     transform: translateX(-50%) scaleX(1);
 }
 
-/* nav btn */
+.right-side-menu {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn {
     display: inline-block;
@@ -113,10 +130,13 @@ nav ul li a:hover:after {
     border: none;
     outline: none;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
     box-shadow: var(--awesome-boxshadow);
     cursor: pointer;
 }
+
+/* navbar end */
 
 /* flexbox */
 
@@ -164,9 +184,12 @@ nav ul li a:hover:after {
 
 /* end Hero */
 
+/* header end */
+
 /* Section 2 */
 
 .bg2 {
+    /* height: 100vh; */
     width: var(--width);
     background: url('../img/3bg.png') no-repeat center center;
     background-size: cover;
@@ -214,14 +237,6 @@ nav ul li a:hover:after {
 
 #sideEffect {
     width: var(--width);
-    height: 100%;
-}
-
-.img3 {
-    width: 100%;
-    height: 68rem;
-    background: url('../img/sec3.svg') no-repeat center center;
-    background-size: cover;
 }
 
 .text-container2 {
@@ -254,6 +269,13 @@ nav ul li a:hover:after {
     color: #264EB5;
 }
 
+.img3 {
+    width: 100%;
+    height: 68rem;
+    background: url('../img/sec3.svg') no-repeat center center;
+    background-size: contain;
+}
+
 /* Cards */
 
 .card {
@@ -264,8 +286,6 @@ nav ul li a:hover:after {
     justify-content: center;
     place-items: center;
     margin-bottom: 8rem;
-    /* position: relative; */
-    /* bottom: 12rem; */
 }
 
 .card img {
@@ -306,7 +326,7 @@ nav ul li a:hover:after {
 
 /* End Section 3 */
 
-/* Contact Us */
+/* Section 4 */
 
 #contact {
     width: var(--width);
@@ -356,6 +376,8 @@ nav ul li a:hover:after {
     box-shadow: none;
     color: #000000;
 }
+
+/* section 4 end */
 
 /* Footer */
 
